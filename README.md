@@ -10,9 +10,9 @@ A[Welcome Page] -->B(Select Tours 1,2,3,4)
     C -->|One| D[City Flying]
     C -->|Two| E[Staying Hotel]
     C -->|Three| F[hiring a 4x4 car]
-    D -->G[Holiday Fee Deatils]
-    E -->G[Holiday Fee Deatils]
-    F -->G[Holiday Fee Deatils]
+    D -->G[Tableau, Holiday Fee Deatils]
+    E -->G[Tableau, Holiday Fee Deatils]
+    F -->G[Tableau, Holiday Fee Deatils]
  
 
 ```
