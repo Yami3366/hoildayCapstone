@@ -1,6 +1,6 @@
 # Order Northern Line Night Tour  
 ###### Two version: hoilday.py ,hoilday_OOP.py
-### Work Flow Diagram
+### Flow Diagram
 
 
 ```mermaid
@@ -14,6 +14,24 @@ A[Welcome Page] -->B(Select Tours 1,2,3,4)
     E -->G[Holiday Fee Deatils]
     F -->G[Holiday Fee Deatils]
  
+
+```
+### Class HolidayCostCalculator Diagrams,hoilday_OOP.py
+```mermaid
+classDiagram
+      HolidayCostCalculator <|-- Color
+      HolidayCostCalculator : +Dict city_cost
+      HolidayCostCalculator : +Dict hotel_cost
+      HolidayCostCalculator : +Dict rental_cost
+      HolidayCostCalculator: +iwelcomepage()
+      HolidayCostCalculator: +validate_city_flight()
+      HolidayCostCalculator: +validate_rental_days()
+      HolidayCostCalculator: +calcutlate_cost()
+      HolidayCostCalculator: +print_holiday_details()
+      class Color{
+          +dict COLORS
+          +decorate()
+      }
 
 ```
 ### Display the demo program operation screen.
